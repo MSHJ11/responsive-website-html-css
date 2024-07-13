@@ -401,7 +401,50 @@ form p {
     list-style-position: inside;
     margin: 10px 0;
 }
+
+footer {
+    background-color: #154360;
+    padding: 100px 0 50px 0;
 }
+#footer-parent {
+    display: flex;
+    margin-right: 200px;
+    margin-left: 200px;
+    color: white;
+    gap: 80px;
+
+}
+.single-footer {
+    width: 100%;
+}
+.single-footer h5 {
+    margin-bottom: 25px;
+    letter-spacing: 3px;
+}
+.single-footer-2 p {
+    margin: 15px;
+}
+.single-footer-2 a {
+    text-decoration: none;
+    color: white;
+}
+.single-footer-3 ul {
+    display: flex;
+}
+.single-footer-3 ul li {
+    list-style-type: none;
+}
+.single-footer-3 ul li a {
+    text-decoration: none;
+    color: white;
+    margin: 0 5px;
+    background-color: #0a273863;
+    padding: 8px;
+}
+.single-footer h5 span {
+    color: yellow
+}
+
 
 
 
@@ -472,6 +515,20 @@ form p {
     .single-takecare {
         margin-bottom: 70px;
     }
+    /* start footer section  */
+        #footer-parent {
+        display: flex;
+        flex-direction: column;
+        margin-right: 30px;
+        margin-left: 30px;        
+    }
+    .single-footer {
+       text-align: center;
+    }
+    .single-footer-3 ul {
+       display: flex;
+       justify-content: center;
+    }
 } 
  
 @media only screen and (min-width:689) and (max-width:1099){
@@ -531,5 +588,11 @@ form p {
     }
     .single-takecare {
         margin-bottom: 80px;
-                            
+    }
+    /* start footer code */
+    #footer-parent {
+        margin-right: 70px;
+        margin-left: 70px;        
+    }
+                               
 }    
